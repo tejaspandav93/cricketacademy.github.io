@@ -1,0 +1,251 @@
+/* HOME PAFGE */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav {
+    background-color: #031f0146;
+    height: 20px;
+
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),
+            rgba(4, 9, 30, 0.7)), url('images.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #17ff02;
+    display: block;
+    margin: auto;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+    transition: 0.5s;
+}
+
+/* textbox */
+.textbox {
+    width: 90%;
+    color: aliceblue;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.textbox h1 {
+    font-size: 65px;
+}
+
+.textbox p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.herobtn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.herobtn:hover {
+    border: 1px solid rgb(0, 183, 255);
+    background-color: rgb(255, 94, 0);
+    transition: 1s;
+}
+
+/* about page */
+.headcontent{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(253, 253, 253);
+    height:50%;
+    width: 100%;
+
+}
+.headcontent h1{
+    text-align: center;
+    margin: 50px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-width:50%;
+}
+.headcontent p{
+    padding:15px;
+    text-align: center;
+    font-weight: 8px;
+}
+.headcontent a{
+    color:black;
+}
+.fac{
+    margin:30px;
+    display:flex;
+    border:2px solid black;
+    background-color: rgba(255, 230, 0, 0.432);
+    border-radius: 10px;
+    height:25vh;
+    width:90vw;
+}
+.fac img{
+    width: 20vw;
+}
+.facbody{
+    padding:10px;
+    display: flex;
+    margin-top: 30px;
+}
+.facbody h1{
+    margin:10px;
+}
+.facbody p{
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* contact*/
+
+body {
+	font-family: Arial, sans-serif;
+	min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),
+            rgba(4, 9, 30, 0.7)), url('images.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(255, 252, 252, 0.2);
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+input,
+textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+footer{
+    position: relative;
+    color: white;
+    background-color: black;
+    width: 100vw;
+    height:5vh;
+    text-align: center;
+    justify-content: center;
+}
+
+/* blog page */
+body {
+	font-family: Arial, sans-serif;
+	min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),
+            rgba(4, 9, 30, 0.7)), url('images.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.blog{
+    border: 2px solid white;
+    width:75vw;
+    height:30vh;
+    text-align: center;
+    justify-content: center;
+    margin:50px;
+    background-color: #0b1413f8;
+    opacity: 0.7;
+    color:white;
+    padding: 80px;
+    border-radius: 5px;
+}
+.blog h1{
+    font-weight: bolder;
+}
+.blog a{
+    color:cyan;
+    text-transform: capitalize;
+    text-decoration: none;
+}
